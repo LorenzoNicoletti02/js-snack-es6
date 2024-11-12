@@ -7,7 +7,7 @@ const bici = [
 
 let biciLeggera = bici[0];
 
-for (let i = 0; i < bici.length; i++){
+for (let i = 1; i < bici.length; i++){
     if (bici[i].peso < biciLeggera.peso){
         biciLeggera = bici[i];
     }
